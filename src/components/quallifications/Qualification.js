@@ -28,10 +28,10 @@ const Qualification = () => {
                 <div className={toggleState === 1 ? "qualification_content qualification_content-active" : "qualification_content"}>
                     <div className="qualification_data">
                         <div>
-                            <h3 className="qualification_title">B. Tech</h3>
-                            <span className="qualification_subtitle">Lovely Professional University</span>
+                            <h3 className="qualification_title">High School</h3>
+                            <span className="qualification_subtitle">Lucknow Public School</span>
                             <div className="qualification_calendar">
-                                <i className='uil uil-calendar-alt'></i> 2021 - Present
+                                <i className='uil uil-calendar-alt'></i> 2016-2017
                             </div>
                         </div>
 
@@ -50,20 +50,20 @@ const Qualification = () => {
                         </div>
 
                         <div>
-                            <h3 className="qualification_title">Art Director</h3>
-                            <span className="qualification_subtitle">Lovely Professional University</span>
+                            <h3 className="qualification_title">Intermediate</h3>
+                            <span className="qualification_subtitle">Lucknow Public School</span>
                             <div className="qualification_calendar">
-                                <i className='uil uil-calendar-alt'></i> 2021 - Present
+                                <i className='uil uil-calendar-alt'></i> 2018 - 2019
                             </div>
                         </div>
                     </div>
 
                     <div className="qualification_data">
                         <div>
-                            <h3 className="qualification_title">Web Development</h3>
+                            <h3 className="qualification_title">B. Tech</h3>
                             <span className="qualification_subtitle">Lovely Professional University</span>
                             <div className="qualification_calendar">
-                                <i className='uil uil-calendar-alt'></i> 2021 - Present
+                                <i className='uil uil-calendar-alt'></i> 2020 - Present
                             </div>
                         </div>
 
@@ -73,7 +73,7 @@ const Qualification = () => {
                         </div>
                     </div>
 
-                    <div className="qualification_data">
+                    {/* <div className="qualification_data">
                         <div></div>
 
                         <div>
@@ -88,7 +88,7 @@ const Qualification = () => {
                                 <i className='uil uil-calendar-alt'></i> 2021 - Present
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
